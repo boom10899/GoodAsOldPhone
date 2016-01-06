@@ -36,8 +36,8 @@ class ProductTableViewController: UITableViewController {
         product3.price = 0.99
         
         product4.name = "1984 Motorola Portable"
-        product4.productImage = "phone-fullscreen3"
-        product4.cellImage = "image-cell3"
+        product4.productImage = "phone-fullscreen4"
+        product4.cellImage = "image-cell4"
         product4.price = 19.99
         
         products = [product1, product2, product3, product4]

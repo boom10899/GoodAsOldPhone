@@ -62,7 +62,11 @@ class CartTableViewController: UITableViewController {
         
         if let order = order {
             cell.textLabel?.text = order.product?.name
-            cell.detailTextLabel?.text = String(order.product?.price)
+//            cell.detailTextLabel?.text = String(order.product?.price)
+            
+            if let p = order.product?.price {
+                cell.detailTextLabel?.text = String(p)
+            }
         }
 
         return cell
